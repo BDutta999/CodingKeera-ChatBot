@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>CodingKeera Chat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Floating hearts background -->
+    <div class="floating-hearts" id="floatingHearts"></div>
+
+    <div class="chat-container">
+        <div class="chat-header">
+            <div class="profile-pic">
+                <i class="fas fa-heart"></i>
+            </div>
+            <div class="header-content">
+                <h1>CodingKeera🤖<span class="heart-pulse">😎</span></h1>
+                <div class="status">
+                    <span class="status-dot"></span>
+                    Online - Last seen just now
+                </div>
+            </div>
+        </div>
+
+        <div class="welcome-banner">
+            <i class="fas fa-heart"></i> Chat with CodingKeera - Share your thoughts <i class="fas fa-heart"></i>
+        </div>
+
+        <div class="chat-messages" id="chatMessages">
+            <div class="message bot">
+                <span class="bot-message-decoration left">🤖</span>
+                <span class="message-text">padhai kar raha hai ya nahi, mehnat kar nhi to 💭</span>
+                <span class="bot-message-decoration right">🔥</span>
+                <span class="message-time">Just now</span>
+            </div>
+        </div>
+
+        <div class="chat-input-area">
+            <input type="text" id="userInput" placeholder="Message COdingKeera...">
+            <button id="sendButton">
+                <i class="fas fa-paper-plane"></i>
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
